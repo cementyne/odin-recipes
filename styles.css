@@ -1,0 +1,44 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+*:not(dialog) {
+  margin: 0;
+}
+
+@font-face {
+    font-family: TimesTenLtStdRoman;
+    src: url(fonts/TimesTenLTStd-Roman.woff2);
+}
+
+body {
+    background-color: #faf9f5;
+    font-family: TimesTenLtStdRoman, "Times New Roman", serif;
+    font-size: 24px;
+}
+
+h1 {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 350px;
+    padding-bottom: 50px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
