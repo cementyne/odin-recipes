@@ -6,39 +6,60 @@
   margin: 0;
 }
 
-@font-face {
-    font-family: TimesTenLtStdRoman;
-    src: url(fonts/TimesTenLTStd-Roman.woff2);
-}
-
 body {
     background-color: #faf9f5;
-    font-family: TimesTenLtStdRoman, "Times New Roman", serif;
-    font-size: 24px;
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
 }
 
-h1 {
+ul, ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+.centered-header {
     text-align: center;
     vertical-align: middle;
     padding-top: 350px;
     padding-bottom: 50px;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+.left-column {
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    padding: 50px;
 }
 
-li {
-    text-align: center;
-    font-size: 1.2em;
+.right-column {
+    display: inline-block;
+    vertical-align: top;
+    width: 900px;
+    padding: 50px 100px;
 }
 
-a {
+.image-md {
+    height: 350px;
+    width: 350px;
+}
+
+.left-column__image {
+    margin-bottom: 50px;
+}
+
+.left-column__index__item {
+    display: block;
+    font-family: Courier, monospace;
+    color: rgba(0, 0, 0, 0.600);
     text-decoration: none;
-    color: black;
 }
 
-a:hover {
-    color: gray;
+.left-column__index__item:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.active-link {
+    color: black;
+    font-weight: bold;
 }
